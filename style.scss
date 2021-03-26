@@ -41,10 +41,29 @@ svg {
 
 .logo {
     display: flex;
-    justify-content: center;
     padding-top: 0.75em;
-    padding-left: 5.85em;
-    width: 18em;
+    padding-left: 117px;
+    width: 360px;
     box-sizing: border-box;
 }
+
+a.tweet {
+    display: inline-block;
+    background: #4BA0EC;
+    border-radius: 100px;
+    height: 50px;
+    width: 211px;
+    margin-left: 105px;
+    box-sizing: border-box;
+
+    span {
+        color: #fff;
+        background: none;
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
 
